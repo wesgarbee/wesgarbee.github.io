@@ -1,0 +1,27 @@
+{
+  "name": "wesgarbee.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "resume export index.html --format html --theme flat_projects"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgarbee/wesgarbee.github.io.git"
+  },
+  "author": "Wes Garbee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgarbee/wesgarbee.github.io/issues"
+  },
+  "homepage": "https://github.com/wgarbee/wesgarbee.github.io#readme",
+  "devDependencies": {
+    "jsonresume-theme-flat_projects": "github:kevincolten/jsonresume-theme-flat_projects#84491e5",
+    "resume-cli": "github:kevincolten/resume-cli#b05d465"
+  },
+  "dependencies": {
+    "yarn": "^1.15.2"
+  }
+}
